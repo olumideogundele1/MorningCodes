@@ -33,7 +33,7 @@ function printAllNumbersThenAllPairs(numbers){
 //printAllNumbersThenAllPairs([1,2,3,4,5]);
 
 const arr1 = ['a','b','c','x'];
-const arr2 = [1,2,3,'y'];
+const arr2 = [1,2,3,'c'];
 
 function containsCommonItem(arr1,arr2){
   let t0 = performance.now();
@@ -79,7 +79,7 @@ function containsCommonItem3(arr1, arr2){
 }
 
 
-containsCommonItem3(arr1,arr2);
+//containsCommonItem3(arr1,arr2);
 
 
 
